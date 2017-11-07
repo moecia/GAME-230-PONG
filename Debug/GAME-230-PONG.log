@@ -1,0 +1,9 @@
+﻿  Paddle.cpp
+  MainGame.cpp
+d:\onedrive\15_gpm\2017q1\game230\project4\game-230-pong\maingame.cpp(92): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  MainMenu.cpp
+  Ball.cpp
+  GAME-230-PONG.vcxproj -> D:\OneDrive\15_GPM\2017Q1\GAME230\Project4\GAME-230-PONG\Debug\GAME-230-PONG.exe
+  GAME-230-PONG.vcxproj -> D:\OneDrive\15_GPM\2017Q1\GAME230\Project4\GAME-230-PONG\Debug\GAME-230-PONG.pdb (Partial PDB)

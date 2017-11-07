@@ -153,22 +153,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Paddle_AI.cpp" />
     <ClCompile Include="Ball.cpp" />
     <ClCompile Include="MainMenu.cpp" />
-    <ClCompile Include="Paddle_Player.cpp" />
+    <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="PONG.cpp" />
     <ClCompile Include="Score.cpp" />
     <ClCompile Include="MainGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Paddle.h" />
-    <ClInclude Include="Paddle_AI.h" />
     <ClInclude Include="Ball.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="MainMenu.h" />
-    <ClInclude Include="Paddle_Player.h" />
     <ClInclude Include="Score.h" />
     <ClInclude Include="MainGame.h" />
   </ItemGroup>

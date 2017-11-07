@@ -1,11 +1,14 @@
 #pragma once
+#ifndef MAINGAME_H
+#define MAINGAME_H
+
 #include "GameState.h"
 #include "Entity.h"
-#include "Paddle_Player.h"
+#include "Paddle.h"
 #include "Ball.h"
 #include "Score.h"
-#include "Paddle_AI.h"
 using namespace sf;
+
 class MainGame : public State
 {
 public:
@@ -13,14 +16,21 @@ public:
 	void Update(RenderWindow* window);
 	void Render(RenderWindow* window);
 	void Destroy(RenderWindow* window);
+	void ShowWinner(RenderWindow* window);
 private:
-	Paddle_Player* player1;
-	Paddle_AI* player2;
-	//Paddle_AI* playerAI;
+	Paddle* player1;
+	Paddle* player2;
+	Paddle* obstacle;
 	Ball* ball;
+	Ball* ball2;
+	bool ball2Added = false;
 	Score* score1;
 	Score* score2;
-
 	Font* font;
+	SoundBuffer* bufferWinner;
+	Sound* soundWinner;
 };
 extern int gameMode;
+
+
+#endif // !MAINGAME_H

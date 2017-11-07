@@ -1,6 +1,8 @@
 #include <iostream>
 #include "MainMenu.h"
 #include "MainGame.h"
+#define isAI 0
+#define isPlayer 1
 using namespace sf;
 int gameMode;
 void MainMenu::Initialize(RenderWindow* window)
@@ -44,12 +46,12 @@ void MainMenu::Update(RenderWindow* window)
 		switch (this->selected)
 		{
 		case 0:
+			gameMode = isAI;
 			_currentState.SetState(new MainGame());	
-			gameMode = 0;
 			break;
 		case 1:
-			_currentState.SetState(new MainGame());
-			gameMode = 1;
+			gameMode = isPlayer;
+			_currentState.SetState(new MainGame());			
 			break;
 		case 2:
 			quitGame = true;

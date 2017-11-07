@@ -13,57 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Gameobject Class">
+      <UniqueIdentifier>{f14b2573-674a-4fb8-9c13-28eaa4117ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMEOBJECT_CLASS_H">
+      <UniqueIdentifier>{1dc7b62c-d655-4760-b230-554cd0116edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMEOBJECT_CLASS_H\GAME_SCENE_H">
+      <UniqueIdentifier>{31411596-3a47-47e6-993e-6d1dccdbbb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Scene">
+      <UniqueIdentifier>{fda99046-ef7f-416c-92e7-7e1bfaeed53a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PONG.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MainMenu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Paddle_Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Ball.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Gameobject Class</Filter>
     </ClCompile>
-    <ClCompile Include="Score.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files\Gameobject Class</Filter>
     </ClCompile>
     <ClCompile Include="MainGame.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Game Scene</Filter>
     </ClCompile>
-    <ClCompile Include="Paddle_AI.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Game Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files\Gameobject Class</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MainMenu.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\GAMEOBJECT_CLASS_H</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Paddle_Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ball.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Score.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MainGame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Paddle_AI.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\GAMEOBJECT_CLASS_H</Filter>
     </ClInclude>
     <ClInclude Include="Paddle.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\GAMEOBJECT_CLASS_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files\GAMEOBJECT_CLASS_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\GAMEOBJECT_CLASS_H\GAME_SCENE_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\GAMEOBJECT_CLASS_H\GAME_SCENE_H</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
